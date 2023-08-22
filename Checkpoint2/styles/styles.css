@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: rgb(183, 233, 243);
+}
+img {
+  min-width: 10rem;
+  max-width: 10rem;
+  min-height: 15rem;
+  max-height: 15rem;
+}
+main {
+  margin: 1rem 5rem;
+}
+header {
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 8rem;
+}
+nav {
+  background-color: rgb(83, 141, 121);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  min-height: 2rem;
+}
+nav > a {
+  text-decoration: none;
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  color: rgb(92, 108, 108);
+}
+nav a:hover {
+  background-color: rgba(97, 217, 233, 0.6);
+}
+.nav1 {
+  color: white;
+  text-align: center;
+}
+header > h1 {
+  text-align: center;
+  color: white;
+}
+.section {
+  background-color: rgb(83, 141, 121);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  border-radius: 1rem;
+  margin: 1rem 0;
+}
+.mainsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.tittle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  color: white;
+}
+.tittle > h2 {
+  background-color: rgb(83, 141, 121);
+  min-width: 5rem;
+  max-width: 5rem;
+  text-align: center;
+  font-size: 1rem;
+}
+table {
+  background-color: rgb(83, 141, 121);
+  color: white;
+}
+.table {
+  background-color: rgb(83, 141, 121);
+  min-height: 15rem;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: white;
+}
+
+tr > th,
+tr > td {
+  border: solid 0.1rem white;
+  margin: 1rem;
+}
+footer {
+  background-color: rgb(83, 141, 121);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  min-height: 8rem;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    min-height: 14rem;
+  }
+  .tittle > h2 {
+    min-width: 19rem;
+    max-width: 19rem;
+    text-align: center;
+  }
+  .mainsection {
+    justify-content: space-between;
+  }
+  img {
+    min-width: 20rem;
+    max-width: 20rem;
+    min-height: 15rem;
+    max-height: 15rem;
+  }
+  .table {
+    min-width: 16rem;
+    max-width: 16rem;
+    border-radius: 1rem;
+  }
+  table {
+    padding: 0.5rem;
+    text-align: center;
+  }
+  .nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(83, 141, 121);
+    color: white;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    min-height: 5rem;
+    max-height: 5rem;
+  }
+}
+@media (min-width: 1024px) {
+  header {
+    min-height: 15rem;
+  }
+  .nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(83, 141, 121);
+    color: white;
+    min-height: 3rem;
+    padding: 0.2rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sec1 {
+    margin-right: 22rem;
+  }
+  .tittle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tittle > h2 {
+    min-width: 21rem;
+    max-width: 21rem;
+    text-align: center;
+  }
+  .mainsection {
+    gap: 3rem;
+  }
+  .table {
+    min-width: 19rem;
+    max-width: 19rem;
+    border-radius: 1rem;
+  }
+  table {
+    padding: 0.5rem;
+    text-align: center;
+  }
+  .section {
+    padding: 1rem;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
